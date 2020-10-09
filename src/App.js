@@ -1,4 +1,4 @@
-const Mascota = (props) => {
+function Mascota(props) {
   const { name, type, breed, characteristics = {} } = props
   const { eyeColor, skinColor } = characteristics
   return React.createElement(
